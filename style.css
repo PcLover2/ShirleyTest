@@ -1,7 +1,16 @@
 @font-face {
   font-family: 'Boucherie Cursive';
-  src: url('fonts/BoucherieCursiveRegular.woff2') format('woff2'),
-      url('fonts/BoucherieCursiveRegular.woff') format('woff');
+  src: url('/fonts/BoucherieCursiveRegular.woff2') format('woff2'),
+      url('/fonts/BoucherieCursiveRegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DM Sans';
+  src: url('/fonts/DMSansRegular.woff2') format('woff2'),
+      url('/fonts/DMSansRegular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
