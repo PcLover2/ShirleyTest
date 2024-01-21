@@ -143,7 +143,7 @@ h3{
       display: flex; padding: 5vw; min-height: 300px; flex-direction: column;
     }
     .studie{
-      background: url(images/studiehulp.jpg), linear-gradient(#1a535c7b,#1a535c7b); background-blend-mode: overlay; background-position: center; background-repeat: no-repeat; background-size: cover; width: 90vw; display: flex;
+      background: url(images/studiehulp.webp), linear-gradient(#1a535c7b,#1a535c7b); background-blend-mode: overlay; background-position: center; background-repeat: no-repeat; background-size: cover; width: 90vw; display: flex;
     }
     .studieinfo{
       padding: 40px 0px;
@@ -261,7 +261,7 @@ h3{
       color: #ffffff; margin: 8px 40px;
     }
     .studieimage{
-      width: 27vw; background-image: url(images/studiehulp.jpg); background-position: center; background-repeat: no-repeat; background-size: cover;
+      width: 27vw; background-image: url(images/studiehulp.webp); background-position: center; background-repeat: no-repeat; background-size: cover;
     }
     .yogainfo{
       width: 45vw; text-align: center; display: flex; justify-content: center; align-items: center;
@@ -312,7 +312,7 @@ h3{
 
 .hero{
   height: 100vh;
-  background-image: url(images/hero.jpg);
+  background-image: url(images/hero.webp);
   background-position: center bottom; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
@@ -350,7 +350,7 @@ a{
   color: #1a535c; margin: 8px 40px;
 }
 .yoga{
-  background: url(images/yoga.jpg), linear-gradient(#1a535c7b,#1a535c7b); background-blend-mode: overlay; background-position: center; background-repeat: no-repeat; background-size: cover; width: 90vw; display: flex;
+  background: url(images/yoga.webp), linear-gradient(#1a535c7b,#1a535c7b); background-blend-mode: overlay; background-position: center; background-repeat: no-repeat; background-size: cover; width: 90vw; display: flex;
 }
 textarea {
   resize: none;
@@ -380,7 +380,7 @@ form{
 #contact{
   justify-content: center;
   display: flex;
-  align-items: center;background-image: url(images/contact.jpg);
+  align-items: center;background-image: url(images/contact.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -422,4 +422,3 @@ input{
 input:focus {
   outline: none !important;
   border:2px solid #1A535C;
-}
