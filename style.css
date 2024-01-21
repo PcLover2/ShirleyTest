@@ -37,6 +37,7 @@ body {
 h3{
   font-size: 5em;
   margin-top: 25px;
+  line-height: 1em;
 }
 
 /* Nav */
@@ -57,6 +58,7 @@ h3{
     margin: 0;
     padding: 0;
     background-color: #1a535c;
+    align-items: center;
   }
   nav ul li {
     float: left;
@@ -174,6 +176,9 @@ h3{
     .formcont{
       text-align: center;
     }
+    .icon{
+      height: 20px !important;
+    }
   }
   #nav-toggle {
     position: absolute;
@@ -216,7 +221,7 @@ h3{
 
   @media screen and (min-width: 900px) {
     .nav-list {
-      display: block !important;
+      display: flex !important;
     }
 
     .nav-link::before {
