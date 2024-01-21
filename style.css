@@ -1,25 +1,36 @@
 @font-face {
   font-family: 'Boucherie Cursive';
-  src: url('/fonts/BoucherieCursiveRegular.woff2') format('woff2'),
-      url('/fonts/BoucherieCursiveRegular.woff') format('woff');
+  src: url('/ShirleyTest/fonts/BoucherieCursive/BoucherieCursiveRegular.woff2') format('woff2'),
+      url('/ShirleyTest/fonts/BoucherieCursive/BoucherieCursiveRegular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'DM Sans';
-  src: url('/fonts/DMSansRegular.woff2') format('woff2'),
-      url('/fonts/DMSansRegular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
   font-display: swap;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/ShirleyTest/fonts/DMSans/dm-sans-v14-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('/ShirleyTest/fonts/DMSans/dm-sans-v14-latin-regular.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
 }
-/* 
-$content-width will be the max width of the content within the navigation bar. 
-$breakpoint determines at which width the media query breakpoint will take effect.
-*/
-
+@font-face {
+  font-display: swap;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/ShirleyTest/fonts/DMSans/dm-sans-v14-latin-500.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('/ShirleyTest/fonts/DMSans/dm-sans-v14-latin-500.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+}
+@font-face {
+  font-display: swap;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/ShirleyTest/fonts/DMSans/dm-sans-v14-latin-600.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('/ShirleyTest/fonts/DMSans/dm-sans-v14-latin-600.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+}
 
 html {
   scroll-behavior: smooth;
